@@ -1,0 +1,106 @@
+.top-about-container {
+	/* min-height: 90vh; */
+	padding-top: 100px;
+}
+.about-content-container {
+	display: grid;
+	/* background-color: aqua; */
+
+	max-width: 1000px;
+
+	padding-block: 2rem;
+	gap: 1.5rem;
+}
+
+.about-subHeading {
+	grid-area: header;
+	/* background-color: #fff; */
+}
+
+
+.decription-container {
+	grid-area: description;
+	/* background-color: rgb(151, 58, 58); */
+}
+.decription-container h1 {
+	font-size: 38px;
+	color: rgb(255, 255, 255);
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	margin-bottom: 1px;
+}
+
+.decription-container p {
+	margin-top: 1rem;
+	font-size: 24px;
+	color: rgb(204, 204, 204);
+}
+.profile-picture-container {
+	grid-area: profilePicture;
+}
+
+.profile-picture-container .profile img {
+	min-width: 200px;
+	min-height: 200px;
+
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	
+
+	border-radius: 8px;
+
+	/* border: 1px solid #ddd;
+	padding: 5px; */
+	padding: 10px;
+	border: 1px solid #77aaff;
+	box-shadow: -1px 1px #77aaff, -2px 2px #77aaff, -3px 3px #77aaff,
+		-4px 4px #77aaff, -5px 5px #77aaff;
+}
+
+
+
+/* Large Screen */
+@media only screen and (min-width: 950px) {
+	.about-content-container {
+		/* background-color: aqua; */
+		width: 80%;
+		grid-template-areas:
+			"description profilePicture";
+			/* "tools-tech-subHeading tools-tech-subHeading"
+			"skills skills"; */
+		margin-inline: auto;
+	}
+
+	.decription-container {
+		margin-right: 1rem;
+	}
+	.profile-picture-container {
+		align-self: center;
+	}
+}
+
+/* Small Screen */
+@media only screen and (max-width: 950px) {
+	.top-about-container {
+		/* min-height: 90vh; */
+		padding-top: 80px;
+	}
+	.about-content-container {
+		width: 80%;
+		/* padding-inline: 2rem; */
+		grid-template-areas:
+			"profilePicture"
+			"description";
+			/* "tools-tech-subHeading"
+			"skills"; */
+		margin-inline: auto;
+	}
+
+	.decription-container {
+		margin-right: 0px;
+	}
+	.profile-picture-container {
+		place-self: center;
+	}
+
+}
