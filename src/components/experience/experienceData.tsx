@@ -1,7 +1,7 @@
 export const experienceRawData = Object.freeze({
 	data: [
 		{
-			companyName: "Growtele Communication",
+			companyName: "JS Infosoft",
 			jobRole: "Software Engineer",
 			description: [
 				"Developed and maintained the CRM dashboard, streamlining lead management, client tracking, and appointment scheduling for telecom operations.",
@@ -10,9 +10,9 @@ export const experienceRawData = Object.freeze({
 				"Collaborated with cross-functional teams following Agile methodology, conducted code reviews, and optimized system performance.",
 				"Tech: Typescript, ReactJS, Nextjs, Nodejs, MongoDB, AWS lambda(Serverless), Docker, Redis, RabbitMQ."
 			],
-			startDate: "March 2025",
-			endDate: "Sept 2025",
-			websiteLink: "https://growtele.com/",
+			startDate: "January 2025",
+			endDate: "Present",
+			websiteLink: " ",
 		},
 		{
 			companyName: "Metageeks Technologies",
@@ -24,8 +24,8 @@ export const experienceRawData = Object.freeze({
 				"Optimized system performance and implemented scalable features, resulting in a 20% faster response time for end-users.",
 				"Tech: Typescript, ReactJS, Nodejs, MongoDB, AI/ML, Generative AI, Solidity.",
 			],
-			startDate: "May 2024",
-			endDate: "Feb 2025",
+			startDate: "Oct 2023",
+			endDate: "Dec 2024",
 			websiteLink: "https://www.metageeks.tech/",
 		},
 		{
@@ -37,8 +37,8 @@ export const experienceRawData = Object.freeze({
 				"Optimized database queries with MongoDB/PostgreSQL, reducing booking confirmation latency by 30%.",
 				"Tech: Html, Css, Javascript, Reactjs, Nodejs, Mongodb, Prisma(ORM), AWS.",
 			],
-			startDate: "Jan 2023",
-			endDate: "Dec 2023",
+			startDate: "feb 2023",
+			endDate: "sept 2023",
 			websiteLink:
 				"",
 		}

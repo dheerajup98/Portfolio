@@ -101,7 +101,7 @@ export default function Navbar({ sectionBackgroundColor }: any) {
 						
 						<a 
 							className={`nav-link resume`} 
-							href="https://drive.google.com/file/d/17-MgznQMheE_QRQVeVbqBU-WTG9a_xxa/view?usp=drive_link" 
+							href=" " 
 							target="_blank" 
 							rel="noopener noreferrer"
 						>
